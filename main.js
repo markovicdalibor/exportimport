@@ -1,5 +1,4 @@
-// -------------- app.js------------------
+import {sayHi} from './helters.js';
 
-import {port, startApp} from './helters.js'
-
-startApp(port)
+alert(sayHi); // function...
+sayHi('John'); // Hello, John!
